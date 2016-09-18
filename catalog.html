@@ -2,10 +2,131 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Заголовок страницы</title>
+    <title>Нёрдс - Каталог</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Основная разметка -->
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="Nerds">
+        </a>
+      </div>
+      <nav class="main-menu">
+        <ul>
+          <li>Студия</li>
+          <li>Клиенты</li>
+          <li>Магазин</li>
+          <li>Контакты</li>
+          <li>Корзина</li>
+        </ul>
+      </nav>
+      <b>Добро пожаловать в магазин готовых макетов</b>
+    </header>
+    <main>
+      <form action="" class="mockup-filter" method="get">
+        <h2>Стоимость:</h2>
+          <input type="range" name="price-range">
+          <br>
+          <label>От</label>
+          <output name="price-from">0</output>
+          <label>До</label>
+          <output name="price-to">15000</output>
+          <br>
+        <h2>Сетка:</h2>
+          <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
+          <label for="adaptive">Адаптивная</label>
+          <br>
+          <input type="radio" name="grid" value="fixed" id="fixed">
+          <label for="fixed">Фиксированная</label>
+          <br>
+          <input type="radio" name="grid" value="rubber" id="rubber">
+          <label for="rubber">Резиновая</label>
+        <h2>Особенности:</h2>
+          <input type="checkbox" name="slider" id="slider" checked>
+          <label for="slider">Слайдер</label>
+          <br>
+          <input type="checkbox" name="features" id="features">
+          <label for="features">Блок преимуществ</label>
+          <br>
+          <input type="checkbox" name="news" id="news" checked>
+          <label for="news">Новости</label>
+          <br>
+          <input type="checkbox" name="gallery" id="gallery">
+          <label for="gallery">Галерея</label>
+          <br>
+          <input type="checkbox" name="basket" id="basket">
+          <label for="basket">Корзина</label>
+          <br>
+        <button type="submit">Показать</button>
+      </form>
+      <section class="sort">
+        <ul>
+          <p>Сортировать:</p>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По функционалу</a></li>
+        </ul>
+      </section>
+      <section class="mockups">
+        <div class="mockup">
+          <img src="./img/aviator.jpg" alt="Aviator">
+        </div>
+        <div class="mockup">
+          <img src="./img/sunset.jpg" alt="Sunset">
+        </div>
+        <div class="mockup">
+          <img src="./img/forte.jpg" alt="Forte">
+        </div>
+        <div class="mockup">
+          <img src="./img/marquee.jpg" alt="Marquee">
+        </div>
+        <div class="mockup">
+          <img src="./img/avenue.jpg" alt="Avenue">
+        </div>
+        <div class="mockup">
+          <img src="./img/dovetail.jpg" alt="Dovetail">
+        </div>
+      </section>
+      <nav class="mockups-nav">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Следующая</a>
+      </nav>
+    </main>
+    <footer>
+      <section class="contacts">
+        <div class="card">
+          <h2>NЁRDS DESIGN STUDIO</h2>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <a href="#">Напишите нам</a>
+        </div>
+        <form action="" method="get" class="write-us">
+          <label for="name">Ваше имя:</label>
+          <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+          <br>
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Для отправки ответа">
+          <br>
+          <label for="note">Текст письма:</label>
+          <textarea name="note" id="note" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+          <br>
+          <button type="input">Отправить</button>
+        </form>
+        <img class="map" src="./img/map.jpg" alt="Map">
+        <img class="bubble" src="./img/bubble.png" alt="Nerds">
+      </section>
+      <div class="social-container">
+        <a href="#"><img src="" alt="Facebook" class="social social-vk"></a>
+        <a href="#"><img src="" alt="VK" class="social social-fb"></a>
+        <a href="#"><img src="" alt="Instagramm" class="social social-ig"></a>
+      </div>
+      <div class="text-container">
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
   </body>
 </html>
