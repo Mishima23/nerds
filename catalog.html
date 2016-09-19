@@ -25,7 +25,8 @@
     </header>
     <main>
       <form action="" class="mockup-filter" method="get">
-        <h2>Стоимость:</h2>
+        <fieldset>
+          <legend>Стоимость:</legend>
           <input type="range" name="price-range">
           <br>
           <label>От</label>
@@ -33,7 +34,9 @@
           <label>До</label>
           <output name="price-to">15000</output>
           <br>
-        <h2>Сетка:</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Сетка:</legend>
           <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
           <label for="adaptive">Адаптивная</label>
           <br>
@@ -42,7 +45,9 @@
           <br>
           <input type="radio" name="grid" value="rubber" id="rubber">
           <label for="rubber">Резиновая</label>
-        <h2>Особенности:</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
           <input type="checkbox" name="slider" id="slider" checked>
           <label for="slider">Слайдер</label>
           <br>
@@ -58,15 +63,18 @@
           <input type="checkbox" name="basket" id="basket">
           <label for="basket">Корзина</label>
           <br>
+        </fieldset>
         <button type="submit">Показать</button>
       </form>
       <section class="sort">
+        <p>Сортировать:</p>
         <ul>
-          <p>Сортировать:</p>
           <li><a href="#">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По функционалу</a></li>
         </ul>
+        <div class="down"></div>
+        <div class="up"></div>
       </section>
       <section class="mockups-container">
         <div class="mockup aviator">
@@ -74,7 +82,7 @@
           <div class="info">
             <h2><a href="#">Aviator</a></h2>
             <p>Одностраничный макет с авторским дизайном</p>
-            <button>8000 Р.</button>
+            <button type="button">8000 Р.</button>
           </div>
           <img src="./img/aviator.jpg" alt="Aviator">
         </div>
@@ -83,7 +91,7 @@
           <div class="info">
             <h2><a href="#">Sunset</a></h2>
             <p>Одностраничный макет с авторским дизайном</p>
-            <button>10000 Р.</button>
+            <button type="button">10000 Р.</button>
           </div>
           <img src="./img/sunset.jpg" alt="Sunset">
         </div>
@@ -92,7 +100,7 @@
           <div class="info">
             <h2><a href="#">Forte</a></h2>
             <p>Отличный макет для личного блога</p>
-            <button>5000 Р.</button>
+            <button type="button">5000 Р.</button>
           </div>
           <img src="./img/forte.jpg" alt="Forte">
         </div>
@@ -101,7 +109,7 @@
           <div class="info">
             <h2><a href="#">Modern Organic Thai</a></h2>
             <p>Сайт для ресторана быстрого питания</p>
-            <button>12000 Р.</button>
+            <button type="button">12000 Р.</button>
           </div>
           <img src="./img/marquee.jpg" alt="Marquee">
         </div>
@@ -110,7 +118,7 @@
           <div class="info">
             <h2><a href="#">Avenue</a></h2>
             <p>Макет для блога о путешествиях</p>
-            <button>8000 Р.</button>
+            <button type="button">8000 Р.</button>
           </div>
           <img src="./img/avenue.jpg" alt="Avenue">
         </div>
@@ -119,17 +127,17 @@
           <div class="info">
             <h2><a href="#">Dovetail</a></h2>
             <p>Интернет-магазин с галереей товаров</p>
-            <button>14000 Р.</button>
+            <button type="button">14000 Р.</button>
           </div>
           <img src="./img/dovetail.jpg" alt="Dovetail">
         </div>
       </section>
-      <nav class="mockups-nav">
+      <div class="mockups-nav">
         <a href="#">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
         <a href="#">Следующая</a>
-      </nav>
+      </div>
     </main>
     <footer>
       <section class="contacts">
