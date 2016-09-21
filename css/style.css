@@ -1,0 +1,13 @@
+body {
+  width: 1200px;
+}
+
+.container {
+  width: auto;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+header {
+  background-color: #eeeeee;
+}

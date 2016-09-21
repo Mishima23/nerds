@@ -3,140 +3,144 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс - Каталог</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html">
-          <img src="./img/logo.png" alt="Nerds">
-        </a>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./img/logo.png" alt="Nerds">
+          </a>
+        </div>
+        <nav class="main-menu">
+          <ul>
+            <li>Студия</li>
+            <li>Клиенты</li>
+            <li>Магазин</li>
+            <li>Контакты</li>
+            <li>Корзина</li>
+          </ul>
+        </nav>
+        <b>Добро пожаловать в магазин готовых макетов</b>
       </div>
-      <nav class="main-menu">
-        <ul>
-          <li>Студия</li>
-          <li>Клиенты</li>
-          <li>Магазин</li>
-          <li>Контакты</li>
-          <li>Корзина</li>
-        </ul>
-      </nav>
-      <b>Добро пожаловать в магазин готовых макетов</b>
     </header>
     <main>
-      <form action="" class="mockup-filter" method="get">
-        <fieldset>
-          <legend>Стоимость:</legend>
-          <input type="range" name="price-range">
-          <br>
-          <label>От</label>
-          <output name="price-from">0</output>
-          <label>До</label>
-          <output name="price-to">15000</output>
-          <br>
-        </fieldset>
-        <fieldset>
-          <legend>Сетка:</legend>
-          <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
-          <label for="adaptive">Адаптивная</label>
-          <br>
-          <input type="radio" name="grid" value="fixed" id="fixed">
-          <label for="fixed">Фиксированная</label>
-          <br>
-          <input type="radio" name="grid" value="rubber" id="rubber">
-          <label for="rubber">Резиновая</label>
-        </fieldset>
-        <fieldset>
-          <legend>Особенности:</legend>
-          <input type="checkbox" name="slider" id="slider" checked>
-          <label for="slider">Слайдер</label>
-          <br>
-          <input type="checkbox" name="features" id="features">
-          <label for="features">Блок преимуществ</label>
-          <br>
-          <input type="checkbox" name="news" id="news" checked>
-          <label for="news">Новости</label>
-          <br>
-          <input type="checkbox" name="gallery" id="gallery">
-          <label for="gallery">Галерея</label>
-          <br>
-          <input type="checkbox" name="basket" id="basket">
-          <label for="basket">Корзина</label>
-          <br>
-        </fieldset>
-        <button type="submit">Показать</button>
-      </form>
-      <section class="sort">
-        <p>Сортировать:</p>
-        <ul>
-          <li><a href="#">По цене</a></li>
-          <li><a href="#">По типу</a></li>
-          <li><a href="#">По функционалу</a></li>
-        </ul>
-        <div class="down"></div>
-        <div class="up"></div>
-      </section>
-      <section class="mockups-container">
-        <div class="mockup aviator">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Aviator</a></h2>
-            <p>Одностраничный макет с авторским дизайном</p>
-            <button type="button">8000 Р.</button>
+      <div class="container">
+        <form action="" class="mockup-filter" method="get">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <input type="range" name="price-range">
+            <br>
+            <label>От</label>
+            <output name="price-from">0</output>
+            <label>До</label>
+            <output name="price-to">15000</output>
+            <br>
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
+            <label for="adaptive">Адаптивная</label>
+            <br>
+            <input type="radio" name="grid" value="fixed" id="fixed">
+            <label for="fixed">Фиксированная</label>
+            <br>
+            <input type="radio" name="grid" value="rubber" id="rubber">
+            <label for="rubber">Резиновая</label>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <input type="checkbox" name="slider" id="slider" checked>
+            <label for="slider">Слайдер</label>
+            <br>
+            <input type="checkbox" name="features" id="features">
+            <label for="features">Блок преимуществ</label>
+            <br>
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">Новости</label>
+            <br>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+            <br>
+            <input type="checkbox" name="basket" id="basket">
+            <label for="basket">Корзина</label>
+            <br>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+        <section class="sort">
+          <p>Сортировать:</p>
+          <ul>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По функционалу</a></li>
+          </ul>
+          <div class="down"></div>
+          <div class="up"></div>
+        </section>
+        <section class="mockups-container">
+          <div class="mockup aviator">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет с авторским дизайном</p>
+              <button type="button">8000 Р.</button>
+            </div>
+            <img src="./img/aviator.jpg" alt="Aviator">
           </div>
-          <img src="./img/aviator.jpg" alt="Aviator">
-        </div>
-        <div class="mockup sunset">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Sunset</a></h2>
-            <p>Одностраничный макет с авторским дизайном</p>
-            <button type="button">10000 Р.</button>
+          <div class="mockup sunset">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Sunset</a></h2>
+              <p>Одностраничный макет с авторским дизайном</p>
+              <button type="button">10000 Р.</button>
+            </div>
+            <img src="./img/sunset.jpg" alt="Sunset">
           </div>
-          <img src="./img/sunset.jpg" alt="Sunset">
-        </div>
-        <div class="mockup forte">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Forte</a></h2>
-            <p>Отличный макет для личного блога</p>
-            <button type="button">5000 Р.</button>
+          <div class="mockup forte">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Forte</a></h2>
+              <p>Отличный макет для личного блога</p>
+              <button type="button">5000 Р.</button>
+            </div>
+            <img src="./img/forte.jpg" alt="Forte">
           </div>
-          <img src="./img/forte.jpg" alt="Forte">
-        </div>
-        <div class="mockup marquee">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Modern Organic Thai</a></h2>
-            <p>Сайт для ресторана быстрого питания</p>
-            <button type="button">12000 Р.</button>
+          <div class="mockup marquee">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Modern Organic Thai</a></h2>
+              <p>Сайт для ресторана быстрого питания</p>
+              <button type="button">12000 Р.</button>
+            </div>
+            <img src="./img/marquee.jpg" alt="Marquee">
           </div>
-          <img src="./img/marquee.jpg" alt="Marquee">
-        </div>
-        <div class="mockup avenue">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Avenue</a></h2>
-            <p>Макет для блога о путешествиях</p>
-            <button type="button">8000 Р.</button>
+          <div class="mockup avenue">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Avenue</a></h2>
+              <p>Макет для блога о путешествиях</p>
+              <button type="button">8000 Р.</button>
+            </div>
+            <img src="./img/avenue.jpg" alt="Avenue">
           </div>
-          <img src="./img/avenue.jpg" alt="Avenue">
-        </div>
-        <div class="mockup dovetail">
-          <div class="header"></div>
-          <div class="info">
-            <h2><a href="#">Dovetail</a></h2>
-            <p>Интернет-магазин с галереей товаров</p>
-            <button type="button">14000 Р.</button>
+          <div class="mockup dovetail">
+            <div class="header"></div>
+            <div class="info">
+              <h2><a href="#">Dovetail</a></h2>
+              <p>Интернет-магазин с галереей товаров</p>
+              <button type="button">14000 Р.</button>
+            </div>
+            <img src="./img/dovetail.jpg" alt="Dovetail">
           </div>
-          <img src="./img/dovetail.jpg" alt="Dovetail">
+        </section>
+        <div class="mockups-nav">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Следующая</a>
         </div>
-      </section>
-      <div class="mockups-nav">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">Следующая</a>
       </div>
     </main>
     <footer>
@@ -162,14 +166,16 @@
         <img class="map" src="./img/map.jpg" alt="Map">
         <img class="bubble" src="./img/bubble.png" alt="Nerds">
       </section>
-      <div class="social-container">
-        <a href="#"><img src="" alt="Facebook" class="social social-vk"></a>
-        <a href="#"><img src="" alt="VK" class="social social-fb"></a>
-        <a href="#"><img src="" alt="Instagramm" class="social social-ig"></a>
-      </div>
-      <div class="text-container">
-        <b>Давайте дружить, это выгодно!</b>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+      <div class="container">
+        <div class="social-container">
+          <a href="#"><img src="" alt="Facebook" class="social social-vk"></a>
+          <a href="#"><img src="" alt="VK" class="social social-fb"></a>
+          <a href="#"><img src="" alt="Instagramm" class="social social-ig"></a>
+        </div>
+        <div class="text-container">
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
       </div>
     </footer>
   </body>
