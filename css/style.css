@@ -1,3 +1,9 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
   width: 1200px;
 }
@@ -10,4 +16,82 @@ body {
 
 header {
   background-color: #eeeeee;
+  min-height: 435px;
+}
+
+header.catalog {
+  min-height: 330px;
+}
+
+header.catalog .welcome {
+  margin-top: 60px;
+  text-align: center;
+}
+
+header .logo {
+  float: left;
+  margin-top: 25px;
+}
+
+header .main-menu {
+  float: right;
+  margin-top: 55px;
+}
+
+header .main-menu li {
+  display: inline;
+}
+
+header .slider-description {
+  float: left;
+  width: 380px;
+  margin-top: 70px;
+}
+
+header .slider-image {
+  float: right;
+  margin-top: 55px;
+}
+
+main .feature {
+  width: 240px;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+main .feature-1,
+main .feature-2 {
+  float: left;
+}
+
+main .feature-3 {
+  float: right;
+  margin-right: 0;
+}
+
+main .to-left {
+  float: left;
+  width: 575px;
+}
+
+main .to-right {
+  float: right;
+  width: 240px;
+}
+
+main .about {
+  margin-top: 60px;
+}
+
+.examples a {
+  float: left;
+  margin-right: 120px;
+}
+
+.examples a:first-child {
+  margin-left: 15px;
+}
+
+.examples a:last-child {
+  margin-right: 0px;
 }
