@@ -95,3 +95,16 @@ main .about {
 .examples a:last-child {
   margin-right: 0px;
 }
+
+footer .container {
+  margin-top: 70px;
+}
+
+footer .social-container,
+footer .text-container {
+  float: left;
+}
+
+footer .social-container {
+  margin-right: 80px;
+}
