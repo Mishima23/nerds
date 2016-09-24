@@ -137,3 +137,29 @@ footer .social-container {
   margin-right: 80px;
 }
 
+.write-us {
+  box-sizing: border-box;
+  width: 630px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.write-us .half-width {
+  float: left;
+}
+
+.write-us .half-width:nth-child(1) {
+  margin-right: 20px;
+}
+.write-us .half-width input {
+  width: 220px;
+}
+
+.write-us label {
+  display: inline-block;
+}
+
+.write-us .full-width textarea {
+  width: 460px;
+  height: 114px;
+}
