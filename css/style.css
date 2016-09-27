@@ -43,22 +43,34 @@ header.catalog .welcome {
   text-transform: uppercase;
 }
 
+header .top {
+  margin: 0;
+  padding: 0;
+}
+
 header .logo {
   float: left;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
 header .main-menu {
   float: right;
-  margin-top: 55px;
+  margin-top: 52px;
+  font-size: 0;
 }
 
 header .main-menu li {
   display: inline-block;
+  vertical-align: bottom;
+  margin-left: 45px;
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
   vertical-align: top;
+}
+
+header .main-menu li:nth-child(5) {
+  margin-left: 94px;
 }
 
 .main-menu a {
@@ -68,8 +80,8 @@ header .main-menu li {
 
 header .slider-description {
   float: left;
-  width: 380px;
-  margin-top: 70px;
+  width: 530px;
+  margin-top: 65px;
 }
 
 .slider-description b {
@@ -83,6 +95,8 @@ header .slider-description {
 
 .slider-description a {
   display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 80px;
   width: 240px;
   text-align: center;
   box-sizing: border-box;
@@ -98,7 +112,11 @@ header .slider-description {
 
 header .slider-image {
   float: right;
-  margin-top: 55px;
+  margin-top: 45px;
+}
+
+.slider-3 .slider-image {
+  margin-top: 23px;
 }
 
 main .feature {
@@ -121,6 +139,7 @@ main .feature {
 .feature a {
   display: inline-block;
   width: 140px;
+  margin-top: 12px;
   text-align: center;
   box-sizing: border-box;
   padding: 10px 40px;
