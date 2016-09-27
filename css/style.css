@@ -230,7 +230,14 @@ footer .container {
   margin-top: 70px;
 }
 
+footer .card {
+  width: 250px;
+  padding: 23px 23px 28px 23px;
+  box-sizing: border-box;
+}
+
 footer .card h2 {
+  margin: 0;
   font-size: 16px;
   line-height: 30px;
 }
@@ -241,6 +248,12 @@ footer .card p {
 }
 
 footer .card a {
+  display: inline-block;
+  width: 205px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 53px;
+  border-radius: 3px;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -299,6 +312,13 @@ footer .social-container {
 }
 
 .write-us button {
+  width: 466px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 70px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
