@@ -82,6 +82,12 @@ header .slider-description {
 }
 
 .slider-description a {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 70px;
+  border-radius: 3px;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -113,6 +119,12 @@ main .feature {
 }
 
 .feature a {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  border-radius: 3px;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
