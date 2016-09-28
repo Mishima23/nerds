@@ -61,7 +61,7 @@ header .main-menu {
 
 header .main-menu li {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
   margin-left: 45px;
   font-size: 14px;
   line-height: 30px;
@@ -69,8 +69,23 @@ header .main-menu li {
   vertical-align: top;
 }
 
-header .main-menu li:nth-child(5) {
-  margin-left: 94px;
+.main-menu .cart {
+  position: relative;
+  min-width: 95px;
+  box-sizing: border-box;
+  margin-left: 65px;
+  padding-left: 25px;
+  text-align: right;
+}
+
+.main-menu .cart::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  background: #ffffff url("img/cart.jpg") no-repeat;
 }
 
 .main-menu a {
@@ -81,7 +96,7 @@ header .main-menu li:nth-child(5) {
 header .slider-description {
   float: left;
   width: 530px;
-  margin-top: 65px;
+  margin-top: 70px;
 }
 
 .slider-description b {
@@ -181,7 +196,9 @@ main .to-right {
 }
 
 main .about {
-  margin-top: 60px;
+  border-top: 2px solid #eeeeee;
+  margin-top: 80px;
+  padding-top: 55px;
   color: #333333;
 }
 
