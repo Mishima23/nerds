@@ -85,7 +85,7 @@ header .main-menu li {
   left: 0px;
   width: 18px;
   height: 18px;
-  background: #ffffff url("img/cart.jpg") no-repeat;
+  background: #ffffff url("../img/cart.jpg") no-repeat;
 }
 
 .main-menu a {
