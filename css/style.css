@@ -91,6 +91,20 @@ header .main-menu li {
 .main-menu a {
   color: #000000;
   text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.main-menu a:hover {
+  color: #fb565a;
+}
+
+.main-menu a:active {
+  color: #000000;
+  opacity: 0.2;
+}
+
+.main-menu .active a {
+  border-bottom: 2px solid #fb565a;
 }
 
 header .slider-description {
@@ -258,6 +272,15 @@ main .examples a {
   display: inline-block;
   vertical-align: middle;
   margin-right: 120px;
+  opacity: 0.2;
+}
+
+.examples a:hover {
+  opacity: 1;
+}
+
+.examples a:active {
+  opacity: 1;
 }
 
 main .examples a:first-child {
@@ -388,6 +411,14 @@ footer .social {
   font-size: 0;
 }
 
+footer .social:hover {
+  background-color: #ff6666;
+}
+
+footer .social:active {
+  background-color: #d6494d;
+}
+
 footer .social-vk {
   background-position: -12px 12px;
 }
@@ -398,7 +429,7 @@ footer .social-fb {
 
 footer .social-ig {
   margin-right: 0;
-  background-position: -110px -18px;
+  background-position: -108px -18px;
 }
 
 .write-us {
