@@ -368,11 +368,37 @@ footer .text-container {
 
 .text-container p {
   margin-top: 10px;
+  margin-bottom: 65px;
   color: #333333;
 }
 
 footer .social-container {
-  margin-right: 125px;
+  margin-right: 75px;
+}
+
+footer .social {
+  display: inline-block;
+  vertical-align: top;
+  width: 62px;
+  height: 62px;
+  margin: 0;
+  margin-right: 25px;
+  border-radius: 50%;
+  background: #cccccc url("../img/sprites.png") no-repeat center;
+  font-size: 0;
+}
+
+footer .social-vk {
+  background-position: -12px 12px;
+}
+
+footer .social-fb {
+  background-position: -56px -10px;
+}
+
+footer .social-ig {
+  margin-right: 0;
+  background-position: -110px -18px;
 }
 
 .write-us {
