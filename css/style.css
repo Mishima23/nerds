@@ -190,6 +190,10 @@ main .to-left {
   width: 575px;
 }
 
+p.to-left {
+  margin-bottom: 0;
+}
+
 main .to-right {
   float: right;
   width: 240px;
@@ -208,8 +212,46 @@ main .about {
   color: #000000;
 }
 
-.about p.upper {
+.about .upper {
   text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.about .two {
+  margin-top: 75px;
+}
+
+.about ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.about li {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  margin-bottom: 22px;
+  padding-left: 36px;
+}
+
+.about li::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background-color: #fb5559;
+}
+
+main .examples {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  margin-top: 50px;
+  margin-bottom: 85px;
+  padding-top: 45px;
+  padding-bottom: 35px;
 }
 
 main .examples a {
