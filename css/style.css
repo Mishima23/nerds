@@ -31,10 +31,6 @@ a.btn {
   background-color: #fb5559;
 }
 
-a.btn:hover {
-  background-color: #d5494d;
-}
-
 a.btn:active {
   background-color: #b63438;
 }
@@ -443,10 +439,19 @@ footer .social-ig {
 }
 
 .write-us {
+  position: relative;
   box-sizing: border-box;
   width: 630px;
   padding-top: 50px;
   padding-left: 80px;
+  box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
+}
+
+.write-us .cross {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
 }
 
 .write-us .half-width {
@@ -469,7 +474,7 @@ footer .social-ig {
 .write-us textarea {
   margin-top: 5px;
   margin-bottom: 20px;
-  padding: 10px 15px;
+  padding: 10px 12px;
   box-sizing: border-box;
   font-size: 12px;
   line-height: 18px;
