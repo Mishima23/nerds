@@ -4,17 +4,39 @@
     clear: both;
 }
 
-b,
-h2 {
-  font-weight: 500;
-}
-
 body {
   width: 1200px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
+}
+
+b,
+h2 {
+  font-weight: 500;
+}
+
+a.btn {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #fb5559;
+}
+
+a.btn:hover {
+  background-color: #d5494d;
+}
+
+a.btn:active {
+  background-color: #b63438;
 }
 
 .container {
@@ -122,21 +144,11 @@ header .slider-description {
   color: #333333;
 }
 
-.slider-description a {
-  display: inline-block;
+.slider-description .btn {
   margin-top: 12px;
   margin-bottom: 80px;
   width: 240px;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px 70px;
-  border-radius: 3px;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #ff6666;
+
 }
 
 header .slider-image {
@@ -165,20 +177,9 @@ main .feature {
   color: #333333;
 }
 
-.feature a {
-  display: inline-block;
+.feature .btn {
   width: 140px;
   margin-top: 12px;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px 40px;
-  border-radius: 3px;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #ff6666;
 }
 
 main .feature-1,
@@ -191,12 +192,28 @@ main .feature-3 {
   margin-right: 0;
 }
 
-.feature-2 a {
-  background-color: #00cc66;
+.feature-2 .btn-green {
+  background-color: #00c973;
 }
 
-.feature-3 a {
-  background-color: #ffcc33;
+.feature-2 .btn-green:hover {
+  background-color: #01a15d;
+}
+
+.feature-2 .btn-green:active {
+  background-color: #008f53;
+}
+
+.feature-3 .btn-yellow {
+  background-color: #efc749;
+}
+
+.feature-3 .btn-yellow:hover {
+  background-color: #d6ad2b;
+}
+
+.feature-3 .btn-yellow:active {
+  background-color: #c09b24;
 }
 
 main .to-left {
@@ -358,19 +375,8 @@ footer .card p {
 }
 
 footer .card a {
-  display: inline-block;
   width: 205px;
-  text-align: center;
   margin-top: 12px;
-  box-sizing: border-box;
-  padding: 10px 53px;
-  border-radius: 3px;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #ff6666;
 }
 
 .contacts .bubble {
