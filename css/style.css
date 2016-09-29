@@ -490,7 +490,8 @@ footer .social-ig {
 }
 
 .write-us button {
-  width: 466px;
+  width: 460px;
+  margin-bottom: 50px;
   text-align: center;
   box-sizing: border-box;
   padding: 10px 70px;
