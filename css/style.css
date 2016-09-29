@@ -45,6 +45,10 @@ a.btn:active {
   margin-right: 160px;
 }
 
+button {
+  cursor: pointer;
+}
+
 header {
   background-color: #eeeeee;
   min-height: 435px;
@@ -463,10 +467,26 @@ footer .social-ig {
 
 .write-us input,
 .write-us textarea {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
   font-size: 12px;
   line-height: 18px;
   color: black;
   text-transform: uppercase;
+  border: 2px solid #d7dbdd;
+  border-radius: 3px;
+}
+
+.write-us input:hover,
+.write-us textarea:hover {
+  border: 2px solid #a1a9ac;
+}
+
+.write-us input:active,
+.write-us textarea:active {
+  border: 2px solid #56befb;
 }
 
 .write-us button {
@@ -487,4 +507,5 @@ footer .social-ig {
 .write-us .full-width textarea {
   width: 460px;
   height: 114px;
+  resize: none;
 }
