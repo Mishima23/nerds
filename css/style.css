@@ -28,7 +28,11 @@ a.btn {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  background-color: #fb5559;
+  background-color: #fb565a;
+}
+
+a.btn:hover {
+  background-color: #d6494d;
 }
 
 a.btn:active {
@@ -507,7 +511,15 @@ footer .social-ig {
   line-height: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #ff6666;
+  background-color: #fb565a;
+}
+
+.write-us button:hover {
+  background-color: #d6494d;
+}
+
+.write-us button:active {
+  background-color: #b63438;
 }
 
 .write-us .full-width textarea {
