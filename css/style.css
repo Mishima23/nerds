@@ -96,22 +96,15 @@ header .main-menu li {
 }
 
 .main-menu .cart {
-  position: relative;
   min-width: 95px;
   box-sizing: border-box;
   margin-left: 65px;
-  padding-left: 25px;
   text-align: right;
 }
 
-.main-menu .cart::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 0px;
-  width: 18px;
-  height: 18px;
-  background: #ffffff url("../img/cart.jpg") no-repeat;
+.icon-basket {
+  padding-right: 10px;
+  color: #a6a6a6;
 }
 
 .main-menu a {
@@ -124,9 +117,17 @@ header .main-menu li {
   color: #fb565a;
 }
 
+.main-menu a:hover .icon-basket {
+  color: #fb565a;
+}
+
 .main-menu a:active {
   color: #000000;
   opacity: 0.2;
+}
+
+.main-menu a:active .icon-basket {
+  color: #a6a6a6;
 }
 
 .main-menu .active a {
@@ -334,7 +335,7 @@ main .all {
 }
 
 main .sort li {
-  display: inline;
+  display: inline-block;
 }
 
 .mockups-container {
