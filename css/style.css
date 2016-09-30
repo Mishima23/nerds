@@ -145,7 +145,7 @@ header .slider-description {
 }
 
 .slider-description p {
-  color: #333333;
+  color: #283136;
 }
 
 .slider-description .btn {
@@ -178,7 +178,7 @@ main .feature {
 
 .feature p {
   font-size: 15px;
-  color: #333333;
+  color: #283136;
 }
 
 .feature .btn {
@@ -238,7 +238,7 @@ main .about {
   border-top: 2px solid #eeeeee;
   margin-top: 80px;
   padding-top: 55px;
-  color: #333333;
+  color: #283136;
 }
 
 .about b {
@@ -315,6 +315,7 @@ main .examples a:last-child {
 main .form-container {
   float: left;
   width: 240px;
+  margin-top: 70px;
 }
 
 .mockup-filter legend,
@@ -329,6 +330,7 @@ main .form-container {
 main .all {
   float: right;
   width: 560px;
+  margin-top: 70px;
 }
 
 main .sort li {
@@ -402,7 +404,7 @@ footer .text-container {
 .text-container p {
   margin-top: 10px;
   margin-bottom: 65px;
-  color: #333333;
+  color: #283136;
 }
 
 footer .social-container {
