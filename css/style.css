@@ -451,12 +451,15 @@ footer .social-ig {
 }
 
 .write-us {
-  position: relative;
+  position: absolute;
+	top: -35px;
+	left: 275px;	
   box-sizing: border-box;
   width: 630px;
   padding-top: 50px;
   padding-left: 80px;
   box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
+	background-color: #ffffff;
 }
 
 .write-us .cross {
@@ -506,7 +509,7 @@ footer .social-ig {
   border: 2px solid #56befb;
 }
 
-.write-us button {
+.write-us button[type=submit] {
   width: 460px;
   margin-bottom: 50px;
   text-align: center;
@@ -522,12 +525,44 @@ footer .social-ig {
   background-color: #fb565a;
 }
 
-.write-us button:hover {
+.write-us button[type=submit]:hover {
   background-color: #d6494d;
 }
 
-.write-us button:active {
+.write-us button[type=submit]:active {
   background-color: #b63438;
+}
+
+.write-us .close {
+	font-size: 0;
+	outline: 0;
+	border: 0;
+	width: 41px;
+	height: 41px;
+	background-color: #fb565a;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.write-us .close::before,
+.write-us .close::after {
+	content: "";
+	width: 25px;
+	height: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 18px;
+	right: 8px;
+}
+
+.write-us .close::before {
+	transform: rotate(45deg);
+}
+
+.write-us .close::after {
+	transform: rotate(-45deg);
 }
 
 .write-us .full-width textarea {
