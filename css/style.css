@@ -415,8 +415,43 @@ main .all {
   margin-top: 70px;
 }
 
-main .sort li {
+.sort ul {
+	padding: 0;
+	font-size: 0;
+}
+
+main .sort li,
+.sort span {
   display: inline-block;
+	vertical-align: bottom;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding-right: 45px;
+}
+
+.sort span {
+	padding-right: 40px;
+}
+
+.sort a {
+	text-decoration: none;
+	color: #cacaca;
+	border-bottom: 1px dotted #00ca74;
+}
+
+.sort a:hover {
+	color: #000000;
+}
+
+.sort a:active {
+	color: #000000;
+	border-bottom: none;
+}
+
+.sort a.active {
+	color: #000000;
+	border-bottom: none;
 }
 
 .mockups-container {
