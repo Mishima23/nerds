@@ -415,13 +415,19 @@ main .all {
   margin-top: 70px;
 }
 
+.sort {
+	position: relative;
+	margin-bottom: 23px;
+}
+
 .sort ul {
 	padding: 0;
+	padding-right: 35px;
 	font-size: 0;
 }
 
 main .sort li,
-.sort span {
+.sort .name {
   display: inline-block;
 	vertical-align: bottom;
 	font-size: 12px;
@@ -455,11 +461,30 @@ main .sort li,
 }
 
 .sort .icons {
-	padding: 0px;
-	margin-left: 11px;
+	position: absolute;
+	top: 0;
+	right: 0;
 	font-size: 23px;
 	line-height: 20px;
-	word-spacing: -10px;
+	word-spacing: -20px;
+	margin-right: -38px;
+}
+
+.sort .icons a {
+	color: #c1c1c1;
+	border-bottom: none;
+}
+
+.sort .icons a:hover {
+	color: #b5b5b5;
+}
+
+.sort .icons a:active {
+	color: #000000;
+}
+
+.sort .icons a.active {
+	color: #00ca74;
 }
 
 .mockups-container {
@@ -470,10 +495,36 @@ main .mockup {
   display: inline-block;
   margin-bottom: 80px;
   margin-right: 80px;
+	height: 270px;
 }
 
 main .mockup:nth-child(2n) {
   margin-right: 0;
+}
+
+.mockup .header {
+	height: 30px;
+	background-color: #f1f1f1;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.header .rounds {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0px 10px 7px;
+}
+
+.header .rounds:first-child {
+	margin-left: 12px;
+}
+
+main .mockup:hover .header {
+	background-color: #797979;
 }
 
 footer .container {
