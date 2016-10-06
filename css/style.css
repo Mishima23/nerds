@@ -492,6 +492,7 @@ main .sort li,
 }
 
 main .mockup {
+	position: relative;
   display: inline-block;
   margin-bottom: 80px;
   margin-right: 80px;
@@ -521,6 +522,51 @@ main .mockup:nth-child(2n) {
 
 .header .rounds:first-child {
 	margin-left: 12px;
+}
+
+.mockup .info {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	background-color: #ffffff;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+}
+
+.info h2 {
+	font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+	text-align: center;
+}
+
+.info a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.info p {
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	color: #283136;
+}
+
+.info button[type=button] {
+	width: 140px;
+/*  margin-bottom: 50px;*/
+  text-align: center;
+  box-sizing: border-box;
+/*  padding: 10px 70px;*/
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #fb565a;
 }
 
 main .mockup:hover .header {
