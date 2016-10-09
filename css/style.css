@@ -402,12 +402,15 @@ main .form-container {
 
 .mockup-filter fieldset {
 	border: none;
+	padding: 0;
+	margin-bottom: 45px;
 }
 
 .mockup-filter legend {
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
+	margin-bottom: 15px;
 }
 
 .mockup-filter .range {
@@ -473,6 +476,14 @@ main .form-container {
 	color: #283136;
 }
 
+.mockup-filter fieldset:nth-child(1) label {
+	margin-right: 6px;
+}
+
+.mockup-filter fieldset:nth-child(1) input:first-of-type {
+	margin-right: 12px;
+}
+
 .mockup-filter input[type=text] {
 	width: 80px;
 	height: 38px;
@@ -485,8 +496,8 @@ main .form-container {
 
 .mockup-filter button[type=submit] {
 	outline: none;
-	margin-top: 55px;
 	border: none;
+	margin-top: 10px;
 	font-size: 12px;
 	line-height: 18px;
 	text-transform: uppercase;
