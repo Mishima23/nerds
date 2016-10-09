@@ -42,12 +42,14 @@
           <form action="" class="mockup-filter" method="get">
             <fieldset>
               <legend>Стоимость:</legend>
-              <input type="range" name="price-range">
-              <br>
-              <label>От</label>
-              <output name="price-from">0</output>
-              <label>До</label>
-              <output name="price-to">15000</output>
+              <div class="range">
+              	<div class="line-green"></div>
+              	<div class="line-gray"></div>
+              </div>
+              <label for="price-from">ОТ</label>
+              <input type="text" name="price-from" id="price-from" placeholder="0">
+              <label for="price-to">ДО</label>
+              <input type="text" name="price-to" id="price-to" placeholder="15000">
               <br>
             </fieldset>
             <fieldset>
