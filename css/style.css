@@ -490,7 +490,7 @@ main .form-container {
 .mockup-filter input[type=checkbox]+label {
 	display: block;
 	padding-left: 35px;
-	margin-bottom: -4px;
+	margin-bottom: 18px;
 }
 
 .mockup-filter input[type=radio]+label:last-of-type,
