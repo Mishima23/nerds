@@ -1,229 +1,233 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Нёрдс - Каталог</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/symbols-nerds.css">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header class="catalog">
-      <div class="container">
-        <div class="top clearfix">
-          <div class="logo">
-            <a href="index.html">
-              <img src="img/logo.png" width="139" height="56" alt="Nerds">
-            </a>
-          </div>
-          <nav class="main-menu">
-            <ul>
-              <li><a href="index.html">Студия</a></li>
-              <li><a href="#">Клиенты</a></li>
-              <li class="active"><a href="catalog.html">Магазин</a></li>
-              <li><a href="#">Контакты</a></li>
-              <li class="cart"><a href="#"><i class="icon-basket"></i>Корзина</a></li>
-            </ul>
-          </nav>
+
+<head>
+  <meta charset="utf-8">
+  <title>Нёрдс - Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/symbols-nerds.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="catalog">
+    <div class="container">
+      <div class="top clearfix">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" width="139" height="56" alt="Nerds">
+          </a>
         </div>
-        <div class="welcome">
-          <b>
+        <nav class="main-menu">
+          <ul>
+            <li><a href="index.html">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li class="active"><a href="catalog.html">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li class="cart"><a href="#"><i class="icon-basket"></i>Корзина</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="welcome">
+        <b>
             Добро пожаловать в магазин
             <br>
             готовых макетов
           </b>
-        </div>
       </div>
-    </header>
-    <main class="clearfix">
-      <div class="container">
-        <div class="form-container">
-          <form action="#" class="mockup-filter" method="get">
-            <fieldset>
-              <legend>Стоимость:</legend>
-              <div class="range">
-              	<div class="line-green"></div>
-              	<div class="line-gray"></div>
-              </div>
-              <label for="price-from">ОТ</label>
-              <input type="text" name="price-from" id="price-from" placeholder="0">
-              <label for="price-to">ДО</label>
-              <input type="text" name="price-to" id="price-to" placeholder="15000">
-            </fieldset>
-            <fieldset>
-              <legend>Сетка:</legend>
-              <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
-              <label for="adaptive">Адаптивная</label>
-              <input type="radio" name="grid" value="fixed" id="fixed">
-              <label for="fixed">Фиксированная</label>
-              <input type="radio" name="grid" value="rubber" id="rubber">
-              <label for="rubber">Резиновая</label>
-            </fieldset>
-            <fieldset>
-              <legend>Особенности:</legend>
-              <input type="checkbox" name="slider" id="slider" checked>
-              <label for="slider">Слайдер</label>
-              <input type="checkbox" name="features" id="features">
-              <label for="features">Блок преимуществ</label>
-              <input type="checkbox" name="news" id="news" checked>
-              <label for="news">Новости</label>
-              <input type="checkbox" name="gallery" id="gallery">
-              <label for="gallery">Галерея</label>
-              <input type="checkbox" name="basket" id="basket">
-							<label for="basket">Корзина</label>
-            </fieldset>
-            <button type="submit">Показать</button>
-          </form>
-        </div>
-        <div class="all">
-          <section class="sort">
-            <ul>
-              <li class="name">Сортировать:</li>
-              <li><a href="#">По цене</a></li>
-              <li><a href="#">По типу</a></li>
-              <li><a href="#">По функционалу</a></li>
-            </ul>
-            <span class="icons">
+    </div>
+  </header>
+  <main class="clearfix">
+    <div class="container">
+      <div class="form-container">
+        <form action="#" class="mockup-filter" method="get">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <div class="range">
+              <div class="line-green"></div>
+              <div class="line-gray"></div>
+            </div>
+            <label for="price-from">ОТ</label>
+            <input type="text" name="price-from" id="price-from" placeholder="0">
+            <label for="price-to">ДО</label>
+            <input type="text" name="price-to" id="price-to" placeholder="15000">
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
+            <label for="adaptive">Адаптивная</label>
+            <input type="radio" name="grid" value="fixed" id="fixed">
+            <label for="fixed">Фиксированная</label>
+            <input type="radio" name="grid" value="rubber" id="rubber">
+            <label for="rubber">Резиновая</label>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <input type="checkbox" name="slider" id="slider" checked>
+            <label for="slider">Слайдер</label>
+            <input type="checkbox" name="features" id="features">
+            <label for="features">Блок преимуществ</label>
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">Новости</label>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+            <input type="checkbox" name="basket" id="basket">
+            <label for="basket">Корзина</label>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </div>
+      <div class="all">
+        <section class="sort">
+          <ul>
+            <li class="name">Сортировать:</li>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По функционалу</a></li>
+          </ul>
+          <span class="icons">
               	<a class="active" href=""><i class="icon-down-dir"></i></a>
               	<a href=""><i class="icon-up-dir"></i></a>
               </span>
-          </section>
-          <section class="mockups-container">
-            <div class="mockup aviator">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-               <div class="info">
-               <h2><a href="#">Aviator</a></h2>
-               <p>Одностраничный макет <br> с авторским дизайном</p>
-               <button type="button">8000 Р.</button>
-              </div> 
-              <img src="img/aviator.jpg" width="239" height="240" alt="Aviator">
+        </section>
+        <section class="mockups-container">
+          <div class="mockup aviator">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
             </div>
-            <div class="mockup sunset">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-              <div class="info">
-                <h2><a href="#">Sunset</a></h2>
-                <p>Интернет-магазин <br> с личным кабинетом</p>
-                <button type="button">10000 Р.</button>
-              </div>
-              <img src="img/sunset.jpg" width="239" height="240" alt="Sunset">
+            <div class="info">
+              <h2><a href="#">Aviator</a></h2>
+              <p>Одностраничный макет <br> с авторским дизайном</p>
+              <button type="button">8000 Р.</button>
             </div>
-            <div class="mockup forte">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-              <div class="info">
-                <h2><a href="#">Forte</a></h2>
-                <p>Отличный макет <br> для личного блога</p>
-                <button type="button">5000 Р.</button>
-              </div>
-              <img src="img/forte.jpg" width="239" height="240" alt="Forte">
-            </div>
-            <div class="mockup marquee">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-              <div class="info">
-                <h2><a href="#">Modern Organic Thai</a></h2>
-                <p>Сайт для ресторана <br> быстрого питания</p>
-                <button type="button">12000 Р.</button>
-              </div>
-              <img src="img/marquee.jpg" width="239" height="240" alt="Marquee">
-            </div>
-            <div class="mockup avenue">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-              <div class="info">
-                <h2><a href="#">Avenue</a></h2>
-                <p>Макет для блога <br> о путешествиях</p>
-                <button type="button">8000 Р.</button>
-              </div>
-              <img src="img/avenue.jpg" width="239" height="240" alt="Avenue">
-            </div>
-            <div class="mockup dovetail">
-              <div class="header">
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              	<div class="rounds"></div>
-              </div>
-              <div class="info">
-                <h2><a href="#">Dovetail</a></h2>
-                <p>Интернет-магазин <br> с галереей товаров</p>
-                <button type="button">14000 Р.</button>
-              </div>
-              <img src="img/dovetail.jpg" width="239" height="240" alt="Dovetail">
-            </div>
-          </section>
-          <div class="mockups-nav">
-            <a href="#" class="current">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">Следующая</a>
+            <img src="img/aviator.jpg" width="239" height="240" alt="Aviator">
           </div>
-        </div>
-        </div>
-    </main>
-    <footer>
-      <section class="contacts container">
-         <div class="card">
-          <h2>NЁRDS DESIGN STUDIO</h2>
-          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7 (812) 275-75-75</p>
-          <a class="btn" href="#">Напишите нам</a>
-        </div>
-        <img class="bubble" src="img/bubble.png" width="231" height="190" alt="Nerds">
-         <form action="#" method="get" class="write-us">
-          <div class="half-width">
-            <label for="name">Ваше имя:</label>
-            <br>
-            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+          <div class="mockup sunset">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+            </div>
+            <div class="info">
+              <h2><a href="#">Sunset</a></h2>
+              <p>Интернет-магазин <br> с личным кабинетом</p>
+              <button type="button">10000 Р.</button>
+            </div>
+            <img src="img/sunset.jpg" width="239" height="240" alt="Sunset">
           </div>
-          <div class="half-width">
-            <label for="email">Ваш e-mail:</label>
-            <br>
-            <input type="email" name="email" id="email" placeholder="Для отправки ответа">
+          <div class="mockup forte">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+            </div>
+            <div class="info">
+              <h2><a href="#">Forte</a></h2>
+              <p>Отличный макет <br> для личного блога</p>
+              <button type="button">5000 Р.</button>
+            </div>
+            <img src="img/forte.jpg" width="239" height="240" alt="Forte">
           </div>
-          <br>
-          <div class="full-width">
-            <label for="note">Текст письма:</label>
-            <br>
-            <textarea name="note" id="note" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+          <div class="mockup marquee">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+            </div>
+            <div class="info">
+              <h2><a href="#">Modern Organic Thai</a></h2>
+              <p>Сайт для ресторана <br> быстрого питания</p>
+              <button type="button">12000 Р.</button>
+            </div>
+            <img src="img/marquee.jpg" width="239" height="240" alt="Marquee">
           </div>
-          <br>
-          <button type="submit">Отправить</button>
-          <button type="button" class="close"></button>
-        </form>
-      </section>
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2005.5272190889657!2d30.320248577514356!3d59.93896799853453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1476131822236" allowfullscreen></iframe>
-        </div>
-      <div class="container">
-        <div class="social-container">
-          <a href="#" class="social social-vk">VK</a>
-          <a href="#" class="social social-fb">Facebook</a>
-          <a href="#" class="social social-ig">Instagram</a>
-        </div>
-        <div class="text-container">
-          <b>Давайте дружить, это выгодно!</b>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+          <div class="mockup avenue">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+            </div>
+            <div class="info">
+              <h2><a href="#">Avenue</a></h2>
+              <p>Макет для блога <br> о путешествиях</p>
+              <button type="button">8000 Р.</button>
+            </div>
+            <img src="img/avenue.jpg" width="239" height="240" alt="Avenue">
+          </div>
+          <div class="mockup dovetail">
+            <div class="header">
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+              <div class="rounds"></div>
+            </div>
+            <div class="info">
+              <h2><a href="#">Dovetail</a></h2>
+              <p>Интернет-магазин <br> с галереей товаров</p>
+              <button type="button">14000 Р.</button>
+            </div>
+            <img src="img/dovetail.jpg" width="239" height="240" alt="Dovetail">
+          </div>
+        </section>
+        <div class="mockups-nav">
+          <a href="#" class="current">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Следующая</a>
         </div>
       </div>
-    </footer>
-    <script type="text/javascript" src="js/script.js"></script>
-  </body>
+    </div>
+  </main>
+  <footer>
+    <section class="contacts container">
+      <div class="card">
+        <h2>NЁRDS DESIGN STUDIO</h2>
+        <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p>тел. +7 (812) 275-75-75</p>
+        <a class="btn" href="#">Напишите нам</a>
+      </div>
+      <img class="bubble" src="img/bubble.png" width="231" height="190" alt="Nerds">
+      <form action="#" method="get" class="write-us">
+        <div class="half-width">
+          <label for="name">Ваше имя:</label>
+          <br>
+          <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="half-width">
+          <label for="email">Ваш e-mail:</label>
+          <br>
+          <input type="email" name="email" id="email" placeholder="Для отправки ответа">
+        </div>
+        <br>
+        <div class="full-width">
+          <label for="note">Текст письма:</label>
+          <br>
+          <textarea name="note" id="note" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        </div>
+        <br>
+        <button type="submit">Отправить</button>
+        <button type="button" class="close"></button>
+      </form>
+    </section>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2005.5272190889657!2d30.320248577514356!3d59.93896799853453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1476131822236"
+        allowfullscreen></iframe>
+    </div>
+    <div class="container">
+      <div class="social-container">
+        <a href="#" class="social social-vk">VK</a>
+        <a href="#" class="social social-fb">Facebook</a>
+        <a href="#" class="social social-ig">Instagram</a>
+      </div>
+      <div class="text-container">
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
 </html>
