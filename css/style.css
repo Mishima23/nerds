@@ -4,11 +4,6 @@
   clear: both;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 body {
   min-width: 1200px;
   font-family: "Roboto", "Arial", sans-serif;
