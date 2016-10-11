@@ -24,6 +24,7 @@ h2 {
 
 a.btn {
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   box-sizing: border-box;
   padding: 10px 15px;
@@ -214,6 +215,7 @@ header .slider-image {
 
 .slider-controls label {
     display: inline-block;
+    vertical-align: middle;
     width: 4px;
     height: 4px;
     margin: 0 3px;
@@ -544,7 +546,7 @@ main .form-container {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font-size: 28зч;
+	font-size: 28px;
 	color: #c1c1c1;
 	font-family: "symbols-nerds";
 }
@@ -670,6 +672,7 @@ main .sort li,
 main .mockup {
 	position: relative;
   display: inline-block;
+  vertical-align: top;
   margin-bottom: 80px;
   margin-right: 80px;
 	height: 270px;
@@ -955,6 +958,7 @@ footer .social-ig {
 
 .write-us label {
   display: inline-block;
+  vertical-align: top;
   line-height: 18px;
 }
 
