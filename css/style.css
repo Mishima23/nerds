@@ -604,8 +604,7 @@ main .all {
 	font-size: 0;
 }
 
-main .sort li,
-.sort .name {
+main .sort li {
   display: inline-block;
 	vertical-align: bottom;
 	font-size: 12px;
