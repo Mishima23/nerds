@@ -587,7 +587,8 @@ main .all {
 }
 
 .sort {
-  margin-bottom: 23px;
+  margin-bottom: 18px;
+  margin-top: 5px;
   position: relative;
 }
 
@@ -597,13 +598,14 @@ main .all {
 }
 
 .sort .icons {
-  font-size: 23px;
+  font-family: "symbols-nerds";
+  font-size: 22px;
   line-height: 20px;
-  margin-right: -38px;
+  margin-right: -36px;
   position: absolute;
   right: 0;
   top: 0;
-  word-spacing: -20px;
+  word-spacing: -18px;
 }
 
 .sort .icons a.active {
@@ -737,6 +739,14 @@ main .mockup:hover .info {
   text-align: center;
 }
 
+.marquee h2 {
+  margin-bottom: 0;  
+}
+
+.marquee p {
+  margin-top: 0;
+}
+
 .info button[type=button] {
   background-color: #fb565a;
   border: none;
@@ -755,6 +765,10 @@ main .mockup:hover .info {
   text-align: center;
   text-transform: uppercase;
   width: 140px;
+}
+
+.marquee button[type=button] {
+  margin-top: 5px;
 }
 
 .info button[type=button]:active {
@@ -802,7 +816,7 @@ main .mockup:hover .info {
 }
 
 footer .container {
-  margin-top: 70px
+  margin-top: 75px;
 }
 
 footer .container:first-of-type {
@@ -925,7 +939,7 @@ footer .social-ig {
   box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
   box-sizing: border-box;
   display: none;
-  left: 275px;
+  left: 115px;
   padding-left: 80px;
   padding-top: 50px;
   position: absolute;
