@@ -1,9 +1,3 @@
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
@@ -12,9 +6,21 @@ body {
   min-width: 1200px;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 b,
 h2 {
-  font-weight: 500
+  font-weight: 500;
 }
 
 a.btn {
@@ -32,22 +38,16 @@ a.btn {
   vertical-align: middle;
 }
 
-a.btn:active {
-  background-color: #b63438
-}
-
 a.btn:hover {
-  background-color: #d6494d
+  background-color: #d6494d;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 880px;
+a.btn:active {
+  background-color: #b63438;
 }
 
 button {
-  cursor: pointer
+  cursor: pointer;
 }
 
 header {
@@ -55,19 +55,19 @@ header {
   min-height: 435px;
 }
 
-header .slider-description {
+.slider .slider-description {
   margin-top: 70px;
   width: 538px;
 }
 
-header .slider-description,
-header .slider-image {
+.slider .slider-description,
+.slider .slider-image {
   display: inline-block;
   vertical-align: top;
 }
 
-header .slider-image {
-  margin-top: 45px
+.slider .slider-image {
+  margin-top: 45px;
 }
 
 header .main-menu {
@@ -76,7 +76,7 @@ header .main-menu {
   margin-top: 52px;
 }
 
-header .main-menu li {
+.main-menu li {
   display: inline-block;
   font-size: 14px;
   line-height: 30px;
@@ -97,15 +97,15 @@ header .top {
 }
 
 header.catalog {
-  min-height: 330px
+  min-height: 330px;
 }
 
-header.catalog .welcome {
+.catalog .welcome {
   margin-top: 60px;
   text-align: center;
 }
 
-.catalog .welcome b {
+.welcome b {
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
@@ -129,25 +129,25 @@ header.catalog .welcome {
   text-decoration: none;
 }
 
+.main-menu a:hover {
+  color: #fb565a;
+}
+
 .main-menu a:active {
   color: #000000;
   opacity: 0.2;
 }
 
-.main-menu a:active .icon-basket {
-  color: #a6a6a6
+a:hover .icon-basket {
+  color: #fb565a;
 }
 
-.main-menu a:hover {
-  color: #fb565a
+a:active .icon-basket {
+  color: #a6a6a6;
 }
 
-.main-menu a:hover .icon-basket {
-  color: #fb565a
-}
-
-.main-menu .active a {
-  border-bottom: 2px solid #fb565a
+.active a {
+  border-bottom: 2px solid #fb565a;
 }
 
 .slider-description b {
@@ -156,7 +156,7 @@ header.catalog .welcome {
 }
 
 .slider-description p {
-  color: #283136
+  color: #283136;
 }
 
 .slider-description .btn {
@@ -166,35 +166,35 @@ header.catalog .welcome {
 }
 
 .slider-2 .slider-description {
-  width: 646px
+  width: 646px;
 }
 
 .slider-3 .slider-description {
-  width: 543px
+  width: 543px;
 }
 
 .slider-3 .slider-image {
-  margin-top: 23px
+  margin-top: 23px;
 }
 
 .slider {
-  position: relative
+  position: relative;
 }
 
 .slider input[type=radio] {
-  display: none
+  display: none;
 }
 
 .slider-inner {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .slider-slides {
-  width: 300%
+  width: 300%;
 }
 
 .slider-n {
-  float: left
+  float: left;
 }
 
 .slider-controls {
@@ -222,19 +222,19 @@ header.catalog .welcome {
 #btn-1:checked~.slider-controls label[for="btn-1"],
 #btn-2:checked~.slider-controls label[for="btn-2"],
 #btn-3:checked~.slider-controls label[for="btn-3"] {
-  background-color: #cccccc
+  background-color: #cccccc;
 }
 
 #btn-1:checked~.slider-inner .slider-slides {
-  transform: translate()
+  transform: translate();
 }
 
 #btn-2:checked~.slider-inner .slider-slides {
-  transform: translate(-880px)
+  transform: translate(-880px);
 }
 
 #btn-3:checked~.slider-inner .slider-slides {
-  transform: translate(-1760px)
+  transform: translate(-1760px);
 }
 
 main .feature {
@@ -261,7 +261,7 @@ main .feature {
 
 main .feature-1,
 main .feature-2 {
-  float: left
+  float: left;
 }
 
 main .feature-3 {
@@ -270,39 +270,39 @@ main .feature-3 {
 }
 
 .feature-2 .btn-green {
-  background-color: #00c973
-}
-
-.feature-2 .btn-green:active {
-  background-color: #008f53
+  background-color: #00c973;
 }
 
 .feature-2 .btn-green:hover {
-  background-color: #01a15d
+  background-color: #01a15d;
+}
+
+.feature-2 .btn-green:active {
+  background-color: #008f53;
 }
 
 .feature-3 .btn-yellow {
-  background-color: #efc749
-}
-
-.feature-3 .btn-yellow:active {
-  background-color: #c09b24
+  background-color: #efc749;
 }
 
 .feature-3 .btn-yellow:hover {
-  background-color: #d6ad2b
+  background-color: #d6ad2b;
 }
 
-main .to-left {
+.feature-3 .btn-yellow:active {
+  background-color: #c09b24;
+}
+
+.about .to-left {
   float: left;
   width: 575px;
 }
 
 p.to-left {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
-main .to-right {
+.about .to-right {
   float: right;
   width: 240px;
 }
@@ -327,7 +327,7 @@ main .about {
 }
 
 .about .two {
-  margin-top: 75px
+  margin-top: 75px;
 }
 
 .about ul {
@@ -362,27 +362,27 @@ main .examples {
   padding-top: 42px;
 }
 
-main .examples a {
+.examples a {
   display: inline-block;
   margin-right: 120px;
   opacity: 0.2;
   vertical-align: middle;
 }
 
-main .examples a:first-child {
-  margin-left: 10px
+.examples a:first-child {
+  margin-left: 10px;
 }
 
-main .examples a:last-child {
-  margin-right: 0px
+.examples a:last-child {
+  margin-right: 0px;
 }
 
 .examples a:hover {
-  opacity: 1
+  opacity: 1;
 }
 
 .examples a:active {
-  opacity: 1
+  opacity: 1;
 }
 
 main .form-container {
@@ -398,8 +398,8 @@ main .form-container {
   padding: 0;
 }
 
-.mockup-filter fieldset:nth-child(1) label {
-  margin-right: 6px
+fieldset:nth-child(1) label {
+  margin-right: 6px;
 }
 
 .mockup-filter legend {
@@ -474,7 +474,7 @@ main .form-container {
 
 .mockup-filter input[type=radio],
 .mockup-filter input[type=checkbox] {
-  display: none
+  display: none;
 }
 
 .mockup-filter input[type=checkbox]:checked+label::before {
@@ -555,7 +555,7 @@ main .form-container {
 }
 
 .mockup-filter input[type=text]:first-of-type {
-  margin-right: 12px
+  margin-right: 12px;
 }
 
 .mockup-filter button[type=submit] {
@@ -571,13 +571,13 @@ main .form-container {
   width: 155px;
 }
 
+.mockup-filter button[type=submit]:hover {
+  background-color: #e5e5e5
+}
+
 .mockup-filter button[type=submit]:active {
   background-color: #d5d5d5;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.15) inset;
-}
-
-.mockup-filter button[type=submit]:hover {
-  background-color: #e5e5e5
 }
 
 main .all {
@@ -586,7 +586,7 @@ main .all {
   width: 560px;
 }
 
-.sort {
+.all .sort {
   margin-bottom: 18px;
   margin-top: 5px;
   position: relative;
@@ -609,7 +609,7 @@ main .all {
 }
 
 .sort .icons a.active {
-  color: #00ca74
+  color: #00ca74;
 }
 
 .sort .icons a {
@@ -617,16 +617,16 @@ main .all {
   color: #c1c1c1;
 }
 
-.sort .icons a:active {
-  color: #000000
+.sort .icons a:hover {
+  color: #b5b5b5;
 }
 
-.sort .icons a:hover {
-  color: #b5b5b5
+.sort .icons a:active {
+  color: #000000;
 }
 
 .sort .name {
-  padding-right: 40px
+  padding-right: 40px;
 }
 
 .sort ul {
@@ -641,16 +641,17 @@ main .all {
   text-decoration: none;
 }
 
+.sort a:hover {
+  border-bottom: 1px solid #00ca74;
+  color: #000000;
+}
+
 .sort a:active {
   border-bottom: none;
   color: #000000;
 }
 
-.sort a:hover {
-  color: #000000
-}
-
-main .sort li {
+.sort li {
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
@@ -660,10 +661,10 @@ main .sort li {
 }
 
 .mockups-container {
-  font-size: 0
+  font-size: 0;
 }
 
-main .mockup {
+.all .mockup {
   display: inline-block;
   height: 270px;
   margin-bottom: 80px;
@@ -672,16 +673,16 @@ main .mockup {
   vertical-align: top;
 }
 
-main .mockup:hover .header {
-  background-color: #797979
+.mockup:hover .header {
+  background-color: #797979;
 }
 
-main .mockup:nth-child(2n) {
-  margin-right: 0
+.all .mockup:nth-child(2n) {
+  margin-right: 0;
 }
 
-main .mockup:hover .info {
-  display: block
+.mockup:hover .info {
+  display: block;
 }
 
 .mockup .header {
@@ -702,7 +703,7 @@ main .mockup:hover .info {
 }
 
 .header .rounds:first-child {
-  margin-left: 12px
+  margin-left: 12px;
 }
 
 .mockup .info {
@@ -771,12 +772,12 @@ main .mockup:hover .info {
   margin-top: 5px;
 }
 
-.info button[type=button]:active {
-  background-color: #b63438
+.info button[type=button]:hover {
+  background-color: #d6494d;
 }
 
-.info button[type=button]:hover {
-  background-color: #d6494d
+.info button[type=button]:active {
+  background-color: #b63438;
 }
 
 .mockups-nav {
@@ -806,13 +807,13 @@ main .mockup:hover .info {
   width: 120px;
 }
 
+.mockups-nav a:hover {
+  background-color: #e5e5e5;
+}
+
 .mockups-nav a:active {
   background-color: #d5d5d5;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.15) inset;
-}
-
-.mockups-nav a:hover {
-  background-color: #e5e5e5
 }
 
 footer .container {
@@ -820,7 +821,7 @@ footer .container {
 }
 
 footer .container:first-of-type {
-  margin-top: 0
+  margin-top: 0;
 }
 
 .mockups-nav .current,
@@ -835,10 +836,10 @@ footer .container:first-of-type {
 }
 
 footer .contacts {
-  position: relative
+  position: relative;
 }
 
-.map {
+footer .map {
   height: 416px;
   min-width: 880px;
 }
@@ -859,18 +860,18 @@ footer .contacts {
   width: 250px;
 }
 
-footer .card h2 {
+.card h2 {
   font-size: 16px;
   line-height: 30px;
   margin: 0;
 }
 
-footer .card p {
+.card p {
   color: #666666;
   line-height: 20px;
 }
 
-footer .card a {
+.card a {
   margin-top: 12px;
   width: 205px;
 }
@@ -883,7 +884,7 @@ footer .card a {
 
 footer .social-container,
 footer .text-container {
-  float: left
+  float: left;
 }
 
 .text-container b {
@@ -898,7 +899,7 @@ footer .text-container {
 }
 
 footer .social-container {
-  margin-right: 75px
+  margin-right: 75px;
 }
 
 footer .social {
@@ -913,20 +914,20 @@ footer .social {
   width: 62px;
 }
 
-footer .social:active {
-  background-color: #d6494d
+footer .social:hover {
+  background-color: #ff6666;
 }
 
-footer .social:hover {
-  background-color: #ff6666
+footer .social:active {
+  background-color: #d6494d;
 }
 
 footer .social-vk {
-  background-position: -12px 12px
+  background-position: -12px 12px;
 }
 
 footer .social-fb {
-  background-position: -56px -10px
+  background-position: -56px -10px;
 }
 
 footer .social-ig {
@@ -947,7 +948,7 @@ footer .social-ig {
   width: 630px;
 }
 
-.write-us .full-width textarea {
+.write-us textarea {
   height: 114px;
   resize: none;
   width: 460px;
@@ -969,24 +970,24 @@ footer .social-ig {
   width: 460px;
 }
 
-.write-us button[type=submit]:active {
-  background-color: #b63438
+.write-us button[type=submit]:hover {
+  background-color: #d6494d;
 }
 
-.write-us button[type=submit]:hover {
-  background-color: #d6494d
+.write-us button[type=submit]:active {
+  background-color: #b63438;
 }
 
 .write-us .half-width {
-  float: left
+  float: left;
 }
 
 .write-us .half-width:nth-child(1) {
-  margin-right: 20px
+  margin-right: 20px;
 }
 
-.write-us .half-width input {
-  width: 220px
+.write-us input {
+  width: 220px;
 }
 
 .write-us .close {
@@ -1014,11 +1015,11 @@ footer .social-ig {
 }
 
 .write-us .close::before {
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 
 .write-us .close::after {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 
 .write-us .cross {
@@ -1048,14 +1049,14 @@ footer .social-ig {
   text-transform: uppercase;
 }
 
-.write-us input:active,
-.write-us textarea:active {
-  border: 2px solid #56befb
-}
-
 .write-us input:hover,
 .write-us textarea:hover {
   border: 2px solid #a1a9ac
+}
+
+.write-us input:active,
+.write-us textarea:active {
+  border: 2px solid #56befb
 }
 
 @keyframes bounce {
