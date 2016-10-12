@@ -558,24 +558,27 @@ fieldset:nth-child(1) label {
   margin-right: 12px;
 }
 
-.mockup-filter button[type=submit] {
+.mockup-filter .btn-submit {
   background-color: #f1f1f1;
-  border: none;
   border-radius: 3px;
+  box-sizing: border-box;
+  color: #000000;
+  display: block;
   font-size: 12px;
   line-height: 18px;
-  margin-top: 12px;
-  outline: none;
+  margin-top: 58px;
   padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   width: 155px;
 }
 
-.mockup-filter button[type=submit]:hover {
+.mockup-filter .btn-submit:hover {
   background-color: #e5e5e5
 }
 
-.mockup-filter button[type=submit]:active {
+.mockup-filter .btn-submit:active {
   background-color: #d5d5d5;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
@@ -625,9 +628,7 @@ main .all {
   color: #000000;
 }
 
-.sort .name {
-  padding-right: 40px;
-}
+
 
 .sort ul {
   font-size: 0;
@@ -658,6 +659,10 @@ main .all {
   padding-right: 45px;
   text-transform: uppercase;
   vertical-align: bottom;
+}
+
+.sort .name {
+  padding-right: 40px;
 }
 
 .mockups-container {
@@ -741,7 +746,7 @@ main .all {
 }
 
 .marquee h2 {
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 .marquee p {
@@ -840,6 +845,7 @@ footer .contacts {
 }
 
 footer .map {
+  background: #808080 url("../img/map.jpg") no-repeat;
   height: 416px;
   min-width: 880px;
 }
@@ -954,7 +960,7 @@ footer .social-ig {
   width: 460px;
 }
 
-.write-us button[type=submit] {
+.write-us .btn-submit {
   background-color: #fb565a;
   border: none;
   border-radius: 3px;
@@ -970,11 +976,11 @@ footer .social-ig {
   width: 460px;
 }
 
-.write-us button[type=submit]:hover {
+.write-us .btn-submit:hover {
   background-color: #d6494d;
 }
 
-.write-us button[type=submit]:active {
+.write-us .btn-submit:active {
   background-color: #b63438;
 }
 
