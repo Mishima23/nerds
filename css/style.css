@@ -618,7 +618,6 @@ main .all {
 }
 
 .sort .icons a:hover {
-	border-bottom: none;
   color: #b5b5b5;
 }
 
@@ -1057,21 +1056,21 @@ footer .social-ig {
 
 .write-us input:active,
 .write-us textarea:active {
-  border: 2px solid #56befb
+  border: 2px solid #56befb;
 }
 
 @keyframes bounce {
   0% {
-    transform: translateY(-2000px)
+    transform: translateY(-2000px);
   }
   70% {
-    transform: translateY(30px)
+    transform: translateY(30px);
   }
   90% {
-    transform: translateY(-10px)
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY()
+    transform: translateY();
   }
 }
 
