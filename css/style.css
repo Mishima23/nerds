@@ -202,7 +202,7 @@ a:active .icon-basket {
   margin-bottom: 10px;
   position: absolute;
   text-align: center;
-  top: 240px;
+  top: 235px;
   z-index: 100;
 }
 
@@ -621,6 +621,7 @@ main .all {
 }
 
 .sort .icons a:hover {
+  border-bottom: none;
   color: #b5b5b5;
 }
 
@@ -628,7 +629,9 @@ main .all {
   color: #000000;
 }
 
-
+.sort .name {
+  padding-right: 40px;
+}
 
 .sort ul {
   font-size: 0;
@@ -659,10 +662,6 @@ main .all {
   padding-right: 45px;
   text-transform: uppercase;
   vertical-align: bottom;
-}
-
-.sort .name {
-  padding-right: 40px;
 }
 
 .mockups-container {
@@ -746,7 +745,7 @@ main .all {
 }
 
 .marquee h2 {
-  margin-bottom: 0;
+  margin-bottom: 0;  
 }
 
 .marquee p {
@@ -960,7 +959,7 @@ footer .social-ig {
   width: 460px;
 }
 
-.write-us .btn-submit {
+.write-us button[type=submit] {
   background-color: #fb565a;
   border: none;
   border-radius: 3px;
@@ -976,11 +975,11 @@ footer .social-ig {
   width: 460px;
 }
 
-.write-us .btn-submit:hover {
+.write-us button[type=submit]:hover {
   background-color: #d6494d;
 }
 
-.write-us .btn-submit:active {
+.write-us button[type=submit]:active {
   background-color: #b63438;
 }
 
